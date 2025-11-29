@@ -9,7 +9,7 @@ export default function About() {
         <span className="red">Türkiye</span>. I like to learn new technologies
         and concepts. Currently I'm learning{" "}
         <span className="purple">C/C++</span> and{" "}
-        <span className="blue">Golang</span> in my free times. I'm mainly
+        <span className="orange">Rust</span> in my free times. I'm mainly
         interested in game development and electornics.
       </p>
     </div>
