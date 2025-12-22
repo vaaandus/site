@@ -10,7 +10,7 @@ export default function About() {
         and concepts. Currently I'm learning{" "}
         <span className="purple">C/C++</span> and{" "}
         <span className="orange">Rust</span> in my free times. I'm mainly
-        interested in game development and electornics.
+        interested in electornics and communication systems.
       </p>
     </div>
   );
