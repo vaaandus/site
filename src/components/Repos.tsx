@@ -12,7 +12,7 @@ export default function Repos() {
   const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/vandus3/repos")
+    fetch("https://api.github.com/users/vaaandus/repos")
       .then((response) => response.json())
       .then((data) => setRepos(data))
       .catch((error) => console.error("Error fetching repos:", error));
