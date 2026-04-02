@@ -2,7 +2,6 @@ import "../css/Intro.css";
 import bg from "../assets/bg.png";
 import github from "../assets/github.svg";
 import instagram from "../assets/instagram.svg";
-import linkedin from "../assets/linkedin.svg";
 
 export default function Intro() {
   return (
@@ -17,9 +16,6 @@ export default function Intro() {
           </a>
           <a href="https://www.instagram.com/velidenizblck" target="_blank">
             <img src={instagram} className="link-img" />
-          </a>
-          <a href="" target="_blank">
-            <img src={linkedin} className="link-img" />
           </a>
         </div>
       </div>

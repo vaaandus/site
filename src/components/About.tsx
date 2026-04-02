@@ -7,8 +7,9 @@ export default function About() {
       <p className="about-text">
         I'm studying Electric-Electronic Engineering in Aydın,{" "}
         <span className="red">Türkiye</span>. I like to learn new technologies
-        and concepts. Currently I'm learning{" "}
-        <span className="purple">C/C++</span> {" "}in my free times. I'm mainly interested in electornic systems and game development.
+        and concepts. Currently I'm working on a game called{" "}
+        <span className="purple">BUSINGO</span>. I'm mainly interested in game
+        development and programming.
       </p>
     </div>
   );
