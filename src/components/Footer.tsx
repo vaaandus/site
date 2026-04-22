@@ -2,8 +2,11 @@ import "../css/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <p className="footer-text">Made with ❤️ by Veli Deniz</p>
-    </div>
+    <footer className="footer">
+      <p className="footer-text">
+        Made with <span className="heart">💙</span> by{" "}
+        <span className="footer-name">Veli Deniz</span>
+      </p>
+    </footer>
   );
 }

@@ -1,16 +1,23 @@
 import "../css/About.css";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="about">
-      <h1 className="about-title">About Me</h1>
+    <motion.div
+      className="about-section"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      <h2 className="section-eyebrow">About Me</h2>
       <p className="about-text">
-        I'm studying Electric-Electronic Engineering in Aydın,{" "}
-        <span className="red">Türkiye</span>. I like to learn new technologies
-        and concepts. Currently I'm working on a game called{" "}
-        <span className="purple">BUSINGO</span>. I'm mainly interested in game
-        development and programming.
+        I'm an Electrical-Electronics Engineering student based in Aydın,{" "}
+        <span className="highlight brand-blue">Türkiye</span>. I love learning
+        new technologies, with a main focus on game development and programming.
+        Currently, I'm building a game called{" "}
+        <span className="highlight brand-blue">BUSINGO</span> with my friends.
       </p>
-    </div>
+    </motion.div>
   );
 }

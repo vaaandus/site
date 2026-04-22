@@ -7,9 +7,26 @@
 body {
   background: #141417;
 }
-
 ::selection {
   background: #0062ff;
   color: black;
   text-shadow: none;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+  border: 3px solid #09090b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0062ff;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #27272a #09090b;
 }
